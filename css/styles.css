@@ -9,6 +9,9 @@
 ul {
   list-style-type: none;
 }
+body{
+  color: var(--color-primary-dark);
+}
 /* button */
 .hero-button {
   padding: 16px 32px 16px 32px;
@@ -39,10 +42,10 @@ ul {
 }
 /* hero-section */
 .section-title {
-  color: var(--color-primary-dark);
+ 
 }
 .sup-title {
-  color: var(--color-primary-dark);
+ 
 }
 .hero-title {
   color: var(--color-primary-accent);
@@ -51,5 +54,5 @@ ul {
   color: var(--color-primary-accent);
 }
 .sub-title {
-  color: var(--color-secondary-dark);
+ 
 }
