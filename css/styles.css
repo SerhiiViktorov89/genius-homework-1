@@ -1,0 +1,55 @@
+:root {
+  --color-primary-dark: #011c44;
+  --color-primary-white: #ffffff;
+  --color-primary-accent: #2b7fff;
+
+  --color-secondary-dark: #4a4a4a;
+}
+/* Base */
+ul {
+  list-style-type: none;
+}
+/* button */
+.hero-button {
+  padding: 16px 32px 16px 32px;
+  border-radius: 32px;
+  background-color: var(--color-primary-accent);
+  color: var(--color-primary-white);
+  border: none;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  cursor: pointer;
+  border: 2px solid var(--color-primary-accent);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: transparent;
+  color: var(--color-primary-dark);
+}
+/* link */
+.link {
+  color: var(--color-primary-dark);
+}
+.link:hover,
+.link:focus {
+  color: var(--color-primary-accent);
+}
+/* hero-section */
+.section-title {
+  color: var(--color-primary-dark);
+}
+.sup-title {
+  color: var(--color-primary-dark);
+}
+.hero-title {
+  color: var(--color-primary-accent);
+}
+.section-title .accent {
+  color: var(--color-primary-accent);
+}
+.sub-title {
+  color: var(--color-secondary-dark);
+}
