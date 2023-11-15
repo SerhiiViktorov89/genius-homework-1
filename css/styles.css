@@ -4,12 +4,16 @@
   --color-primary-accent: #2b7fff;
 
   --color-secondary-dark: #4a4a4a;
+  --color-secondary: #747272;
+  --color-secondary-background: #011f4a;
+
+  --color-description: #000000;
 }
 /* Base */
 ul {
   list-style-type: none;
 }
-body{
+body {
   color: var(--color-primary-dark);
 }
 /* button */
@@ -42,10 +46,8 @@ body{
 }
 /* hero-section */
 .section-title {
- 
 }
 .sup-title {
- 
 }
 .hero-title {
   color: var(--color-primary-accent);
@@ -54,5 +56,41 @@ body{
   color: var(--color-primary-accent);
 }
 .sub-title {
- 
+  color: var(--color-secondary-dark);
+}
+
+/* why-us section */
+
+.advantages-text {
+  color: var(--color-description);
+}
+
+/* contacts section */
+.forma {
+  background-color: var(--color-secondary-background);
+  color: var(--color-primary-white);
+}
+.form_terms {
+  color: var(--color-secondary);
+}
+.form_terms-link {
+  color: var(--color-secondary);
+}
+
+/* footer */
+.footer {
+  background-color: var(--color-primary-dark);
+}
+.footer_nav-link {
+  color: var(--color-primary-white);
+}
+.footer_address-link {
+  color: var(--color-primary-white);
+}
+.footer_address-link:hover,
+.footer_address-link:focus {
+  color: var(--color-secondary);
+}
+.footer_address-copyright {
+  color: var(--color-secondary);
 }

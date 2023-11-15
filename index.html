@@ -80,18 +80,20 @@
         <ul>
           <li>
             <img src="./images/atom.svg" alt="mark atom" />
-            <p>
+            <p class="advantages-text">
               All our cosmetologists have a higher medical education and work
               experience of at least 5 years
             </p>
           </li>
           <li>
             <img src="./images/cosmetiks.svg" alt="mark bottles" />
-            <p>We use only professional equipment and time-tested cosmetics</p>
+            <p class="advantages-text">
+              We use only professional equipment and time-tested cosmetics
+            </p>
           </li>
           <li>
             <img src="./images/crown.svg" alt="mark crown" />
-            <p>
+            <p class="advantages-text">
               Our goal is to emphasize the advantages and hide the
               disadvantages, not to rework
             </p>
@@ -146,39 +148,54 @@
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <div>
+        <div class="forma">
           <h3>Sign up for free and get a gift</h3>
           <form>
             <label>Your name and surname<input /></label>
             <label>Your number phone<input /></label>
             <label>Your mail<input /></label>
             <button class="hero-button" type="submit">Register for free</button>
+            <p class="form_terms">
+              By clicking the button, I agree to the
+              <a class="form_terms-link" href="/">privacy policy</a>
+            </p>
           </form>
         </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <nav>
         <a href="/">
           <img src="./images/logo.svg" alt="logo text beauty zone" />
         </a>
         <ul>
-          <li><a href="#about-us">About us</a></li>
-          <li><a href="#why-us">Why us</a></li>
-          <li><a href="#our-procedures">Our procedures</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+          <li><a class="footer_address-link" href="#about-us">About us</a></li>
+          <li><a class="footer_address-link" href="#why-us">Why us</a></li>
+          <li>
+            <a class="footer_address-link" href="#our-procedures"
+              >Our procedures</a
+            >
+          </li>
+          <li><a class="footer_address-link" href="#contacts">Contacts</a></li>
         </ul>
       </nav>
 
       <address>
         <ul>
-          <li><a href="tel:+38(096)0000007">+ 38 (096) 000 00 07</a></li>
           <li>
-            <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
+            <a class="footer_address-link" href="tel:+38(096)0000007"
+              >+ 38 (096) 000 00 07</a
+            >
+          </li>
+          <li>
+            <a class="footer_address-link" href="mailto:beautyzone@gmail.com"
+              >beautyzone@gmail.com</a
+            >
           </li>
           <li>
             <a
+              class="footer_address-link"
               lang="uk"
               target="_blank"
               href="https://maps.app.goo.gl/rHmPng71wF4WePa26"
@@ -187,8 +204,10 @@
           </li>
         </ul>
         <div>
-          <a target="_blank" href="#">Privacy Policy</a>
-          <p>&copy; 2022 Data protected</p>
+          <a class="footer_address-link" target="_blank" href="#"
+            >Privacy Policy</a
+          >
+          <p class="footer_address-copyright">&copy; 2022 Data protected</p>
         </div>
       </address>
     </footer>
