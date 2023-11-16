@@ -15,6 +15,22 @@ ul {
 }
 body {
   color: var(--color-primary-dark);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+}
+a {
+  text-decoration: none;
+}
+ul,
+a,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
 }
 /* button */
 .hero-button {
@@ -39,30 +55,54 @@ body {
 /* link */
 .link {
   color: var(--color-primary-dark);
+  font-size: 18px;
 }
 .link:hover,
 .link:focus {
   color: var(--color-primary-accent);
+  font-weight: 700;
 }
 /* hero-section */
-.section-title {
-}
 .sup-title {
+  font-size: 18px;
 }
 .hero-title {
   color: var(--color-primary-accent);
+  font-family: Play;
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 114px;
+}
+
+.sub-title {
+  color: var(--color-secondary-dark);
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+.section-title {
+  font-family: Play;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 74px;
+  text-align: center;
 }
 .section-title .accent {
   color: var(--color-primary-accent);
 }
-.sub-title {
-  color: var(--color-secondary-dark);
+
+/* about us section */
+.about-us .section-title {
+  text-align: start;
 }
 
 /* why-us section */
 
 .advantages-text {
   color: var(--color-description);
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
 }
 
 /* contacts section */
@@ -70,16 +110,31 @@ body {
   background-color: var(--color-secondary-background);
   color: var(--color-primary-white);
 }
+.form-title {
+  font-weight: 600px;
+  font-size: 26px;
+  text-align: center;
+}
+input::placeholder {
+  font-size: 13px;
+  line-height: 15px;
+}
 .form_terms {
   color: var(--color-secondary);
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
 }
 .form_terms-link {
   color: var(--color-secondary);
+  text-decoration: underline;
 }
 
 /* footer */
 .footer {
   background-color: var(--color-primary-dark);
+  font-size: 16px;
+  line-height: 19px;
 }
 .footer_nav-link {
   color: var(--color-primary-white);
@@ -93,4 +148,6 @@ body {
 }
 .footer_address-copyright {
   color: var(--color-secondary);
+  font-size: 13px;
+  line-height: 15px;
 }
