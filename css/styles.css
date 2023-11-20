@@ -19,6 +19,8 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 1.2;
+  box-sizing: border-box;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -31,6 +33,13 @@ h3,
 p {
   margin: 0;
   padding: 0;
+}
+/* container */
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 100px;
 }
 /* button */
 .hero-button {
@@ -61,6 +70,10 @@ p {
 .link:focus {
   color: var(--color-primary-accent);
   font-weight: 700;
+}
+/* header */
+.header {
+  padding: 32px 0;
 }
 /* hero-section */
 .sup-title {
@@ -136,7 +149,7 @@ input::placeholder {
 .footer {
   background-color: var(--color-primary-dark);
   font-size: 16px;
-  line-height: 1.2;
+  width: 100%;
 }
 .footer_nav-link {
   color: var(--color-primary-white);
@@ -151,5 +164,4 @@ input::placeholder {
 .footer_address-copyright {
   color: var(--color-secondary);
   font-size: 13px;
-  line-height: 1.2;
 }
